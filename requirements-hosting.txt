@@ -1,0 +1,10 @@
+# Run prepare_hosting_files.bat before deployment to pin the exact local ML-library versions.
+# This baseline keeps the file deployable if you have not generated the pins yet.
+Flask>=3.0.0
+Flask-Cors>=4.0.0
+joblib>=1.3.2
+numpy>=1.26.4
+pandas>=2.2.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+gunicorn>=22.0.0
